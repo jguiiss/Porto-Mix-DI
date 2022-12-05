@@ -1,0 +1,151 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+* {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    color: #fff;
+    text-decoration: none;
+    list-style: none;
+    transition: 0.3s;
+  }
+  
+  a:hover {
+    opacity: 0.7;
+  }
+  
+  .logo {
+    font-size: 24px;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+  }
+  
+  nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: system-ui, -apple-system, Helvetica, Arial, sans-serif;
+    background: #23232e;
+    height: 60px;
+  }
+  
+  .nav-list {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav-list li {
+    letter-spacing: 3px;
+    margin-left: 32px;
+  }
+
+  nav a {
+    text-decoration: none;
+    color: #fff;
+  }
+
+  .wrapper {
+    width: 100%;
+    margin: 0 auto;
+}
+
+    /*section2*/
+    .container2 {
+      width: 100%;
+      max-width: 760px;
+      margin: 0 auto;
+      padding: 0 20px;
+  }
+  section.module2:last-child {
+      margin-bottom: 0;
+  }
+  section.module.content2 {
+      padding: 40px 0;
+      background-color: #121212;
+      text-align: center;
+      height: 240px;
+  }
+  section.module.content2 h1{
+      font-size: 45px;
+      color: #fff;
+  }
+  .container2 h6 {
+    color: #fff;
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+  }
+  section.module.content2 button {
+    border-radius: 30px;
+    background-color: #f7d4a0;
+    outline: none;
+    cursor: pointer;
+    width: 290px;
+    height: 50px;
+    transition: all 0.2s;
+    font-weight: bold;
+}
+section.module.content2 button:hover {
+    -webkit-transform: scale(1.0);
+    transform: scale(1.1);
+    cursor: pointer;  
+  }
+
+/*section3*/
+.container3 {
+    width: 100%;
+    max-width: 760px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+section.module3:last-child {
+    margin-bottom: 0;
+}
+section.module.content3 {
+    padding: 40px 0;
+    background-color: #121212;
+    text-align: center;
+	  height: 350px;
+}
+section.module.content3 h1{
+    font-size: 45px;
+    color: #fff;
+}
+  img {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    width: 100%;
+  }
+  #sesao1 {
+    margin-bottom: 15px;
+    margin-top: 40px;
+    margin-left: 300px;
+    align-items: center;  
+    max-width: 100px;
+    width: auto;
+    height: auto;
+  }
+      /*section4*/
+      .container4 {
+        width: 100%;
+        max-width: 760px;
+        margin: 0 auto;
+        padding: 0 20px;
+    }
+    section.module4:last-child {
+        margin-bottom: 0;
+    }
+    section.module.content4 {
+        padding: 40px 0;
+        background-color: #121212;
+        text-align: center;
+        height: 550px;
+    }
+    section.module.content4 h1{
+        font-size: 45px;
+        color: #fff;
+    }
